@@ -1,0 +1,65 @@
+.carPage {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+  }
+  
+  .logoutButton {
+    position: absolute;
+    top: 10px;
+    left: 120px;
+    padding: 10px 20px;
+    background-color: #36f452;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for color change */
+  }
+  
+  .logoutButton:hover {
+    background-color: #fcce17; /* Purple background color on hover */
+  }
+  
+  .hiddenButton {
+    position: absolute;
+    top: 20px;
+    right: 50px; /* Adjust this value as needed to position correctly */
+    padding: 10px 20px;
+    background-color: #000000;
+    color: rgb(5, 3, 3);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for color change */
+  }
+  .hiddenButton:hover {
+    background-color: #04ff00; /* Purple background color on hover */
+  }
+  
+  .carList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2400px;
+  }
+  
+  .carCard {
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 300px;
+  }
+  
+  .carImage {
+    width: 100%;
+    height: auto;
+    transition: transform 0.2s ease-in-out;
+  }
+  .carImage:hover {
+    transform: scale(1.1); /* Adjust the scale factor as needed */
+  }
+  
+  h1 {
+    margin-top: 10px; /* Adjust this value as needed to create the desired space */
+    color: white;
+  }

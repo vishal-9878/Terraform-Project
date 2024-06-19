@@ -1,0 +1,52 @@
+.modelsPage {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+  }
+  
+  .logoutButton {
+    position: absolute;
+    top: 10px;
+    left: 120px;
+    padding: 10px 20px;
+    background-color: #f5a81a;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .logoutButton:hover {
+    background-color: #fcce17;
+  }
+  
+  .modelList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .modelCard {
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 300px;
+  }
+  
+  .modelImage {
+    width: 100%;
+    height: auto;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .modelImage:hover {
+    transform: scale(1.1);
+  }
+  
+  h1 {
+    margin-top: 2200px;
+    color: white;
+  }
+  

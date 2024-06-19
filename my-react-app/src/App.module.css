@@ -1,0 +1,58 @@
+/* App.module.css */
+body {
+  background: linear-gradient(to bottom right, #FF6347, #87CEEB);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+.container {
+  text-align: center; 
+  background: linear-gradient(to bottom right, #FF6347, #65c6ec);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  color: white;
+  margin: 10vh auto;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.nav {
+  margin-top: 20px;
+}
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav li {
+  margin: 10px 0;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  display: inline-block;
+}
+
+.nav a:hover {
+  background-color: #007bff;
+  color: white;
+}
